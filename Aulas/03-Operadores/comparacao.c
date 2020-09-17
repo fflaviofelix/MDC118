@@ -21,7 +21,7 @@ int main()
     printf("x <= y? %d\n", x <= y);
 
     /* diferente de */
-    printf("x != y? %d\n", x != y); // ! operador logico negacao not
+    printf("x != y? %d\n", x != y); // ! operador logico negacao Not
 
     return 0;
 }
