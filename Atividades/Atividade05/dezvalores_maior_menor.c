@@ -1,16 +1,15 @@
 //Escrever um programa em C que leia 10 valores e imprima o maior e o menor valores lidos.
 
 #include <stdio.h>
-#include <float.h>
 
 int main()
 {   
-    int i, maior, menor, atual;
+    float i, maior, menor, atual;
 
     for(i=1;i<=10;i++)
     {
         printf("\nDigite um número: ");
-        scanf("%d", &atual);
+        scanf("%f", &atual);
 
         if(i==1){
             maior = atual;
@@ -22,8 +21,8 @@ int main()
 
     }
 
-    printf("\nMaior: %d", maior);
-    printf("\nMenor: %d", menor);
+    printf("\nMaior: %0.2f", maior);
+    printf("\nMenor: %0.2f", menor);
     printf("\n\n");
 
     return 0;
