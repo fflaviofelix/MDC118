@@ -15,9 +15,7 @@ int main(){
      {7777, 30007000}};
     printf("\nDigite a matricula do funcionário: ");
     scanf("%d",&matricula);
-
-    if (matricula==matriz[i][j])
-    {printf("Telefone: %d", matriz[i][j+1]);}
+    if (matricula==matriz[i][j]){printf("Telefone: %d", matriz[i][j+1]);}
 printf("\n");
 return 0;
 }
