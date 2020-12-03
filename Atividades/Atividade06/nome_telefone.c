@@ -6,11 +6,11 @@
 int main(){
     int contato;
     contato=0;
-    char nome[40]; 
+    char nome[30]; 
     long int telefone[15];
     for(contato=0; contato<10; contato++){
         printf("\nDigite o nome: ");
-        fgets(nome, 40, stdin);
+        fgets(nome, 30, stdin);
         printf("Digite o telefone: ");
         scanf("%ld", telefone);
         printf("\n");}
